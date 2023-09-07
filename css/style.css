@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    margin: 0 15px;
+    width: 555px;
+    height: 261px;
+    background: linear-gradient(257deg, #008BF0 -13.2%, #D943C9 130.95%);
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #fff;
+    padding-left: 35px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-content-text{
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    margin: 0;
+    display: inline-block;
+}
+
+.box__undertext{
+    color: #F4F9FC;
+}
+
+.box__headtext{
+    font-weight: 600;
+    margin: 0;
+}
+
+.box a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.box__right{
+    display: inline-block;
+}
+
+.box__right img{
+    width: 250px;
+    height: 211px;
+}
